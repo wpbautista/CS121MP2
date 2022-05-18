@@ -1,10 +1,11 @@
 <template>
-
+<body>
 <div class="add-product"> 
     <p class="text">Your Product List</p> 
-    <a href="@/components/SL-Dashboard.vue" class="add-product-btn">add product</a>
-
+    <a @click="addproduct" class="add-product-btn">add product</a>
 </div>
+</body>
+
 
 </template>
 
@@ -12,7 +13,9 @@
 export default{
     name : 'SL-Dashboard',
     methods:{
-        
+        addproduct(){
+            this.$router.push({path : 'seller-add-product'})
+        }
     }
 }
 </script>

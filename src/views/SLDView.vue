@@ -1,7 +1,5 @@
 <template>
-  <div class="container">
-    <SLDashboard/>
-  </div>
+  <SLDashboard/>
 </template>
 
 <script>

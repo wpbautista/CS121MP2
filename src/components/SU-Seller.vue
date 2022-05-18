@@ -61,7 +61,7 @@ body{
   width: 100%;
   height: 100vh;
   display: flex;
-  background: snow;
+  background: #e9e9e9;
   font-family: 'Trebuchet MS', sans-serif;
 }
 
