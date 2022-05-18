@@ -15,9 +15,5 @@ export default {
 </script>
 
 <style>
-body{
-    background: #e9e9e9;
-    padding: 20px 5vw;
-    font-family: 'Trebuchet MS', sans-serif;
-}
+
 </style>

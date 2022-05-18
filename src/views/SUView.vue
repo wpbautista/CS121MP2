@@ -1,7 +1,5 @@
 <template>
-  <div class="container">
-    <SUSeller msg="Apply for a Seller Account"/>
-  </div>
+  <SUSeller msg="Apply for a Seller Account"/>
 </template>
 
 <script>
@@ -20,5 +18,9 @@ export default {
 *{
   margin: 0;
   padding: 0;
+}
+body{
+    background: #e9e9e9;
+    font-family: 'Trebuchet MS', sans-serif;
 }
 </style>

@@ -25,6 +25,10 @@ export default{
     box-sizing: border-box;
 }
 
+body{
+    padding: 20px 5vw;
+}
+
 .add-product{
    width: 100%;
    height: 60px;
