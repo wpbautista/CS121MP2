@@ -3,7 +3,10 @@
 </template>
 
 <script>
-// @ is an alias to /src
+//use created for fetching the products
+//from some database
+//make product component and view the product for deletion
+
 import SLDashboard from '@/components/SL-Dashboard.vue'
 
 export default {
