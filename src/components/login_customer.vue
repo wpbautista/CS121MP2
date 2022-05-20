@@ -1,6 +1,6 @@
 <template>
     <div class="center">
-        <h1>Log-In as Customer</h1>
+        <h1>Log-In</h1>
         <form @submit.prevent="submit">
             <div class="text_field">
                 <input type="text" v-model="username" required>
