@@ -11,9 +11,9 @@
         component, and img src should be a variable here
         -->
         <!--remove this later-->
-        <SLProductCard name="Lights" source="suseller.jpg"/>
-        <SLProductCard name="Bed" source="suseller.jpg"/>
-        <SLProductCard name="Cup" source="suseller.jpg"/>
+        <template v-for="item in products" :key="item.name">
+            <SLProductCard :name="item.name" :source="item.source"/>
+        </template>     
     </div>
 </section>
 </body>
@@ -22,12 +22,41 @@
 </template>
 
 <script>
+//make product data get json from db 
+//then pass it to product card 
 import SLProductCard from '@/components/SL-ProductCard.vue';
 export default{
     name : 'SL-Dashboard',
     components:{
     SLProductCard
-},
+    },
+    data(){
+        return{
+            products:[
+                {
+                    name: 'Lights',
+                    source: 'suseller.jpg'
+                },
+                {
+                    name: 'Camera',
+                    source: 'suseller.jpg'
+                },
+                {
+                    name: 'Jug',
+                    source: 'suseller.jpg'
+                },
+                {
+                    name: 'Radio',
+                    source: 'suseller.jpg'
+                },
+                {
+                    name: 'Laptop',
+                    source: 'suseller.jpg'
+                },
+
+            ]
+        }
+    },
     methods:{
         addproduct(){
             this.$router.push({path : 'seller-add-product'})
@@ -78,7 +107,7 @@ body{
 .product-container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
     gap: 20px;
 }
 

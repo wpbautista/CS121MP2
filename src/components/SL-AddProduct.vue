@@ -64,7 +64,7 @@ export default{
 
             if(allFine){
                 alert('Success, should be submitting')
-                //function to store the products, using json probably
+                //function to store the products, in json probably
                 //then go back to dashboard
                 this.$router.push({path : 'seller-dashboard'})
             }

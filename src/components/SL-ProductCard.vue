@@ -1,8 +1,8 @@
 <template>
 <div class="product-card">
-    <button class="btn edit-btn">&#9998;</button>
-    <button class="btn delete-btn">&#x1F5D1;</button>
-    <button class="btn open-btn">&#x1f441;</button>
+    <button @click="editCard" class="btn edit-btn">&#9998;</button>
+    <button @click="delCard" class="btn delete-btn">&#x1F5D1;</button>
+    <button @click="openCard" class="btn open-btn">&#x1f441;</button>
     <!--current src is a placeholder-->
     <!--make src based on the uploaded image-->
     <img :src="resolve_img_url(source)" alt="No Image" class="product-img"/>
@@ -11,6 +11,7 @@
 </template>
 
 <script>
+
 export default{
     name: 'ProductCard',
     props:{
@@ -22,6 +23,23 @@ export default{
        resolve_img_url: function(path){
            let images = require.context('../assets/', false, /\.png$|\.jpg$/)
            return images("./" + path)
+       },
+
+       openCard(){
+           alert('clicked open')
+           //open the product page that is editable
+           //probably pass a product id num, for
+           //referencing in db
+       },
+
+       delCard(){
+           alert('clicked delete')
+           //request a delete
+       },
+
+       editCard(){
+           alert('clicked edit')
+           //open the product page that is editable
        }
     }
 }
