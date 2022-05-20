@@ -24,6 +24,7 @@
 <script>
 //make product data get json from db 
 //then pass it to product card 
+//request happens on create
 import SLProductCard from '@/components/SL-ProductCard.vue';
 export default{
     name : 'SL-Dashboard',
