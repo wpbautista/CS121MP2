@@ -1,24 +1,30 @@
-# CS121MP2
+# login_customer
 
-For this MP you are to create a fully functional online store.
+## Project setup
+```
+npm install
+```
 
-Specifications:
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-Users: 
+### Compiles and minifies for production
+```
+npm run build
+```
 
-1. Seller
+### Lints and fixes files
+```
+npm run lint
+```
 
-- should be able to add/edit/delete different products
-- should be able to view all the sales/users who bought the products
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
 
-2. Buyer
+## LOGIN
 
-- should be able to view/search all available products
-- should be able to add to cart
-- should be able to buy products
-- The application should also have a login page where the user can sign-in or sign-up for an account.
-
-Additional feature (for groups of 4)
-
-Upon registration of any user they will be sent a verification email. The email contains the verification code where the user can input in the registration page to verify his/her account. The email also contains a link which the user can use to automatically verify his/her account.
-A user with an unverified account should not be able to login.
+9:17pm 
+Created Customer Sign-Up Page
+Added Local Storage of Information
