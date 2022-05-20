@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "first_name": "Will",
+      "last_name": "Bautista",
+      "username": "fren",
+      "password": "wekker",
+      "id": 1
+    },
+    {
+      "first_name": "Will",
+      "last_name": "Bautista",
+      "username": "fren",
+      "password": "wekker",
+      "id": 2
+    },
+    {
+      "first_name": "Will",
+      "last_name": "Bautista",
+      "username": "fren",
+      "password": "wekker",
+      "id": 3
+    },
+    {
+      "first_name": "asdfasdf",
+      "last_name": "sadfsdf",
+      "username": "asdfasdf",
+      "password": "sdafsadf",
+      "id": 4
+    },
+    {
+      "first_name": "asdf",
+      "last_name": "sdaf",
+      "username": "asdf",
+      "password": "sdafsdf",
+      "id": 5
+    },
+    {
+      "first_name": "dsfd",
+      "last_name": "dsffas",
+      "username": "sdfsdaf",
+      "password": "sdafsdf",
+      "id": 6
+    },
+    {
+      "first_name": "bruce",
+      "last_name": "waybne",
+      "username": "sadf",
+      "password": "sadsdaff",
+      "id": 7
+    },
+    {
+      "first_name": "",
+      "last_name": "",
+      "username": "",
+      "password": "",
+      "id": 8
+    }
+  ]
+}
