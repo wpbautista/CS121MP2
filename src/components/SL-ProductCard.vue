@@ -5,8 +5,8 @@
     <button class="btn open-btn">&#x1f441;</button>
     <!--current src is a placeholder-->
     <!--make src based on the uploaded image-->
-    <img src="@/assets/suseller.jpg" alt="No Image" class="product-img"/>
-    <p class="product-name">{{pname}}</p>
+    <img :src="resolve_img_url(source)" alt="No Image" class="product-img"/>
+    <p class="product-name">{{name}}</p>
 </div>
 </template>
 
@@ -14,7 +14,15 @@
 export default{
     name: 'ProductCard',
     props:{
-        pname: String
+        name: String,
+        source: String
+    },
+    methods:{
+        //probably temporary
+       resolve_img_url: function(path){
+           let images = require.context('../assets/', false, /\.png$|\.jpg$/)
+           return images("./" + path)
+       }
     }
 }
 </script>

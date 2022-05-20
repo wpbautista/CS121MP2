@@ -4,9 +4,9 @@
     <h1 class="title">Add Product</h1>
     <section class="product-sec">
         <div class="img-upload-container">
-            <input type="file" @change="updatepic" id="product-img" hidden/>
+            <input type="file" @change="updatepic" id="product-img" accept="image/*" hidden/>
             <label for="product-img" class="product-img-overlay">Upload Image</label>
-            <img alt="" class="product-img-display" />
+            <img alt="" class="product-img-display" v-if="url" :src="url" />
         </div>
         <div class="product-details">
             <h1 class="product-name" contenteditable="true" data-placeholder="Product Name">Product Name</h1>
@@ -27,6 +27,11 @@
 <script>
 export default{
     name: 'SL-AddProduct',
+    data(){
+        return{
+            url: null,
+        }
+    },
     methods:{
         addingprd(){
             let productName = document.querySelector('.product-name');
@@ -64,13 +69,14 @@ export default{
                 this.$router.push({path : 'seller-dashboard'})
             }
         },
-        updatepic(){
-            let uploadpic = document.querySelector('#product-image');
-            const file = uploadpic.files[0];
-            //let imgURL;
-            if(file.type.includes('image')){
-                //save image somewhere, then display it to the img display
+        updatepic(event){
+            try{
+                const file = event.target.files[0];
+                this.url = URL.createObjectURL(file)
+            }catch(error){
+                console.log("")
             }
+            
         }
     }
 }
@@ -94,9 +100,11 @@ body{
     display: flex;
 }
 
-.prodct-img-display{
+.product-img-display{
     background: white;
     width: 100%;
+    height: 100%;
+
 }
 
 .img-upload-container{

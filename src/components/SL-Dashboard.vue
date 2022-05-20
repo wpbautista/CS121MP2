@@ -11,9 +11,9 @@
         component, and img src should be a variable here
         -->
         <!--remove this later-->
-        <SLProductCard pname="Lights"/>
-        <SLProductCard pname="Bed"/>
-        <SLProductCard pname="Cup"/>
+        <SLProductCard name="Lights" source="suseller.jpg"/>
+        <SLProductCard name="Bed" source="suseller.jpg"/>
+        <SLProductCard name="Cup" source="suseller.jpg"/>
     </div>
 </section>
 </body>
