@@ -1,6 +1,6 @@
 <template>
     <div class="center">
-        <h1>Sign Up as Customer</h1>
+        <h1>Sign Up</h1>
         <form>
             <div class="text_field">
                 <input type="text" v-model="first_name" required>
@@ -21,9 +21,6 @@
             <button v-on:click="signUp">Sign Up!</button>
             <p>
             Already a member? <router-link to="/log-in">Log-In Here</router-link>
-            </p>
-            <p>
-            Plan to sell? <router-link to="/signup-seller">Sign-up here</router-link>
             </p>
         </form>
     </div>
