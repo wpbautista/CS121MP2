@@ -1,60 +1,96 @@
 {
-  "users": [
-    {
-      "first_name": "Will",
-      "last_name": "Bautista",
-      "username": "fren",
-      "password": "wekker",
-      "id": 1
-    },
-    {
-      "first_name": "Will",
-      "last_name": "Bautista",
-      "username": "fren",
-      "password": "wekker",
-      "id": 2
-    },
-    {
-      "first_name": "Will",
-      "last_name": "Bautista",
-      "username": "fren",
-      "password": "wekker",
-      "id": 3
-    },
-    {
-      "first_name": "asdfasdf",
-      "last_name": "sadfsdf",
-      "username": "asdfasdf",
-      "password": "sdafsadf",
-      "id": 4
-    },
-    {
-      "first_name": "asdf",
-      "last_name": "sdaf",
-      "username": "asdf",
-      "password": "sdafsdf",
-      "id": 5
-    },
-    {
-      "first_name": "dsfd",
-      "last_name": "dsffas",
-      "username": "sdfsdaf",
-      "password": "sdafsdf",
-      "id": 6
-    },
-    {
-      "first_name": "bruce",
-      "last_name": "waybne",
-      "username": "sadf",
-      "password": "sadsdaff",
-      "id": 7
-    },
-    {
-      "first_name": "",
-      "last_name": "",
-      "username": "",
-      "password": "",
-      "id": 8
-    }
-  ]
+    "users": [
+        {
+            "first_name": "Will",
+            "last_name": "Bautista",
+            "username": "fren",
+            "password": "wekker",
+            "id": 1
+        },
+        {
+            "first_name": "Will",
+            "last_name": "Bautista",
+            "username": "fren",
+            "password": "wekker",
+            "id": 2
+        },
+        {
+            "first_name": "Will",
+            "last_name": "Bautista",
+            "username": "fren",
+            "password": "wekker",
+            "id": 3
+        },
+        {
+            "first_name": "asdfasdf",
+            "last_name": "sadfsdf",
+            "username": "asdfasdf",
+            "password": "sdafsadf",
+            "id": 4
+        },
+        {
+            "first_name": "asdf",
+            "last_name": "sdaf",
+            "username": "asdf",
+            "password": "sdafsdf",
+            "id": 5
+        },
+        {
+            "first_name": "dsfd",
+            "last_name": "dsffas",
+            "username": "sdfsdaf",
+            "password": "sdafsdf",
+            "id": 6
+        },
+        {
+            "first_name": "bruce",
+            "last_name": "waybne",
+            "username": "sadf",
+            "password": "sadsdaff",
+            "id": 7
+        },
+        {
+            "first_name": "kevin",
+            "last_name": "magnussen",
+            "username": "kmag",
+            "password": "ehv",
+            "id": 9
+        },
+        {
+            "first_name": "testing",
+            "last_name": "testing2",
+            "username": "testing3",
+            "password": "",
+            "id": 10
+        },
+        {
+            "first_name": "max",
+            "last_name": "verstappen",
+            "username": "m01",
+            "password": "pass",
+            "id": 11
+        },
+        {
+            "first_name": "user",
+            "last_name": "asmin",
+            "username": "admin",
+            "password": "user",
+            "id": 13
+        },
+        {
+            "first_name": "test",
+            "last_name": "tester",
+            "username": "hi",
+            "password": "hey",
+            "id": 14
+        },
+        {
+            "first_name": "will",
+            "last_name": "eze",
+            "storename": "stroe",
+            "username": "hwe",
+            "password": "wehsd",
+            "id": 15
+        }
+    ]
 }
